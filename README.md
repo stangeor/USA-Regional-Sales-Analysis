@@ -1,5 +1,6 @@
 ## Repository Structure
 
+```
 USA-Regional-Sales-Analysis/
 │
 ├── EDA (USA_Regional_Analysis).ipynb   # Exploratory Data Analysis
@@ -9,3 +10,4 @@ USA-Regional-Sales-Analysis/
 ├── Final Dashboard.pbix                # Power BI dashboard file
 ├── Dashboard (final).pbit              # Power BI template file
 └── README.md                           # Project documentation
+```
