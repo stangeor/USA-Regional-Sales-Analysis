@@ -1,116 +1,55 @@
-![](https://komarev.com/ghpvc/?username=stangeor)
-
 # USA Regional Sales Analysis
 
-Exploratory Data Analysis of Acme Co.’s USA sales data from 2014 to 2018, focused on revenue trends, profitability drivers, regional performance, and customer segmentation. This project demonstrates end-to-end EDA using Python and produces analysis-ready outputs suitable for BI and dashboarding.
+## 1. Project Overview
 
-## Project Objective
+This project analyzes regional sales performance across the United States to identify revenue trends, high-performing regions, and areas requiring business intervention.
 
-The objective of this project is to analyze historical sales data and answer the following business questions:
+The objective is to transform raw sales data into structured insights using Python for data ingestion and exploratory analysis, and Power BI for interactive dashboard visualization.
 
-- How does revenue trend over time and across months?
-- Which products, channels, and regions drive the most revenue and profit?
-- Are profit margins influenced more by pricing or by volume?
-- Where do pricing, revenue, and order-value outliers exist?
-- How are customers distributed by revenue and profitability?
+---
 
-## Dataset Overview
+## 2. Business Problem
 
-The analysis uses a multi-sheet Excel dataset with the following components:
+Sales organizations need clear visibility into:
 
-- Sales Orders: 64,104 rows
-- Customers: 175 rows
-- Products: 30 rows
-- Regions and State mappings
-- Product-level budgets for 2017
+- Regional revenue performance
+- Profitability distribution
+- High and low performing segments
+- Trends over time
+- Operational bottlenecks
 
-Final cleaned dataset:
+Without structured analysis, decision-making becomes reactive rather than data-driven.
 
-- Rows: 64,104
-- Columns: 15
-- Time range: 2014–2018  
-- Note: 2018 data is partial and excluded from seasonality analysis
+This project answers:
 
-## Tools and Libraries
+- Which region generates the highest revenue?
+- Which regions underperform?
+- How do sales vary across categories and time?
+- Where should management focus growth efforts?
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+---
 
-## Data Preparation
+## 3. Project Architecture
 
-Key data preparation steps:
+Data Flow:
 
-- Loaded all Excel sheets and validated schema
-- Corrected malformed headers in the State Regions sheet
-- Checked and confirmed no duplicate sales records
-- Merged sales data with customer, product, and regional datasets
-- Standardized column names using snake_case
-- Removed unused and redundant fields
-- Converted data types and validated date fields
-- Nullified budget values for non-2017 orders
-- Exported cleaned and processed datasets for reuse
+Raw Data  
+→ Python Ingestion Script (`ingestion_db.py`)  
+→ Data Cleaning & EDA (Jupyter Notebook)  
+→ Power BI Dashboard  
+→ Business Insights  
 
-## Feature Engineering
+---
 
-The following derived features were created:
+## 4. Tech Stack
 
-- `total_cost` = quantity × cost
-- `profit` = revenue − total_cost
-- `profit_margin_pct`
-- `order_month_name`
-- `order_month_num`
-- Monthly aggregation keys for time series analysis
+- Python  
+- Pandas  
+- NumPy  
+- Jupyter Notebook  
+- Power BI  
+- Data ingestion scripting  
 
-## Exploratory Analysis
+---
 
-The notebook includes the following analyses:
-
-- Monthly revenue trend over time
-- Aggregated seasonality by calendar month
-- Top 10 products by total revenue
-- Top 10 products by average profit margin
-- Sales distribution by channel
-- Average order value distribution
-- Profit margin versus unit price relationship
-- Unit price variability by product
-- Total sales by US region
-- State-level sales performance using a choropleth map
-- Top and bottom customers by revenue
-- Customer segmentation using revenue vs profit margin
-- Correlation analysis of numeric variables
-
-## Key Insights
-
-- Monthly revenue remains stable between approximately $23M and $26.5M from 2014 to 2017
-- A sharp revenue decline occurs in early 2017, indicating a possible one-time disruption
-- Wholesale accounts for 54% of total sales, while exports contribute only 15%
-- Product revenue is highly concentrated, with Products 26 and 25 significantly outperforming others
-- Profit margins range from approximately 18% to 60%, with no strong correlation to unit price
-- Unit price is a stronger driver of revenue and profit than order quantity
-- The West region leads sales, with California contributing roughly $230M alone
-- Customer revenue is heavily concentrated among the top-performing accounts
-
-## Business Recommendations
-
-- Exclude or explicitly classify bulk and promotional outliers when computing averages
-- Apply pricing and margin strategies from top-performing products to mid-tier products
-- Expand export channels to reduce dependence on domestic wholesale sales
-- Investigate the early 2017 revenue anomaly before seasonal planning
-- Use aggregated outputs as direct inputs for Power BI dashboards
-
-## Output Files
-
-- `USA Regional Analysis.ipynb`
-- `Sales_data(EDA Exported).csv`
-- `final.csv`
-
-## Next Steps
-
-- Build executive dashboards in Power BI
-- Add revenue forecasting and trend projection
-- Perform customer cohort and retention analysis
-- Extend analysis using post-2018 data
+## 5. Repository Structure
