@@ -153,4 +153,9 @@ This analysis supports:
 
 ## 13. Conclusion
 
-This project demonstrates end-to-end analytics workflow: ingestion, cleaning, exploration, and visualization. It converts raw transactional data into structured, decision-ready insights suitable for business leadership.
+This project demonstrates end-to-end analytics workflow: 
+- ingestion,
+- cleaning,
+- exploration, and
+- visualization.
+It converts raw transactional data into structured, decision-ready insights suitable for business leadership.
