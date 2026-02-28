@@ -14,19 +14,19 @@ Python is used for ingestion and analytical validation. Power BI is used for exe
 
 Sales leadership needs structured visibility into:
 
-- Revenue distribution across regions  
-- Profitability by geography  
-- Category-level performance  
-- Time-based sales trends  
-- Margin leakage and inefficiencies  
+- Revenue distribution across regions
+- Profitability by geography
+- Category-level performance
+- Time-based sales trends
+- Margin leakage and inefficiencies
 
 Core business questions addressed:
 
-- Which region drives the highest revenue?  
-- Which regions underperform on profitability?  
-- Are revenues concentrated in a few product categories?  
-- Are there seasonal patterns?  
-- Where should management focus growth or cost optimization?  
+- Which region drives the highest revenue?
+- Which regions underperform on profitability?
+- Are revenues concentrated in a few product categories?
+- Are there seasonal patterns?
+- Where should management focus growth or cost optimization?
 
 ---
 
@@ -46,12 +46,12 @@ This structure ensures reproducibility and separation of concerns.
 
 ## 4. Technology Stack
 
-- Python  
-- Pandas  
-- NumPy  
-- Jupyter Notebook  
-- Power BI  
-- Logging-enabled ingestion pipeline  
+- Python
+- Pandas
+- NumPy
+- Jupyter Notebook
+- Power BI
+- Logging-enabled ingestion pipeline
 
 ---
 
@@ -75,16 +75,16 @@ USA-Regional-Sales-Analysis/
 
 ### Data Ingestion
 
-- Automated structured loading via Python  
-- Execution logging for auditability  
-- Clean dataset prepared for analysis  
+- Automated structured loading via Python
+- Execution logging for auditability
+- Clean dataset prepared for analysis
 
 ### Data Cleaning
 
-- Missing value handling  
-- Data type normalization  
-- Inconsistency removal  
-- Validation checks  
+- Missing value handling
+- Data type normalization
+- Inconsistency removal
+- Validation checks
 
 All transformations are reproducible.
 
@@ -94,12 +94,12 @@ All transformations are reproducible.
 
 EDA focused on decision-relevant metrics:
 
-- Revenue concentration by region  
-- Profit margin variance  
-- Category contribution analysis  
-- Time-series performance  
-- Outlier detection  
-- Distribution analysis  
+- Revenue concentration by region
+- Profit margin variance
+- Category contribution analysis
+- Time-series performance
+- Outlier detection
+- Distribution analysis
 
 Findings informed dashboard KPI design.
 
@@ -109,12 +109,12 @@ Findings informed dashboard KPI design.
 
 The interactive dashboard provides:
 
-- Regional revenue comparison  
-- Profit and margin KPIs  
-- Category-level contribution breakdown  
-- Time-series trend visualization  
-- Interactive filtering  
-- Drill-down exploration  
+- Regional revenue comparison
+- Profit and margin KPIs
+- Category-level contribution breakdown
+- Time-series trend visualization
+- Interactive filtering
+- Drill-down exploration
 
 Designed for executive consumption.
 
@@ -122,11 +122,11 @@ Designed for executive consumption.
 
 ## 9. Key Insights
 
-1. Revenue distribution varies significantly across regions.  
-2. Some high-revenue regions show weaker profitability.  
-3. A limited number of categories drive the majority of sales.  
-4. Sales exhibit time-based variation.  
-5. Margin inconsistencies suggest cost inefficiencies in certain regions.  
+1. Revenue distribution varies significantly across regions.
+2. Some high-revenue regions show weaker profitability.
+3. A limited number of categories drive the majority of sales.
+4. Sales exhibit time-based variation.
+5. Margin inconsistencies suggest cost inefficiencies in certain regions.
 
 ---
 
@@ -134,39 +134,45 @@ Designed for executive consumption.
 
 This analysis enables:
 
-- Regional performance benchmarking  
-- Profitability optimization  
-- Focused growth strategy  
-- Resource reallocation  
-- Automated executive reporting  
+- Regional performance benchmarking
+- Profitability optimization
+- Focused growth strategy
+- Resource reallocation
+- Automated executive reporting
 
 ---
 
 ## 11. How to Run
 
 1. Run:
+
    ```bash
    python ingestion_db.py
    ```
+
 2. Open:
+
    ```
    EDA (USA_Regional_Analysis).ipynb
    ```
+
 3. Launch:
+
    ```
    Final Dashboard.pbix
    ```
+
    in Power BI Desktop.
 
 ---
 
 ## 12. Future Enhancements
 
-- Predictive sales forecasting  
-- Regional clustering and segmentation  
-- Margin optimization modeling  
-- Automated ETL pipeline  
-- Cloud-hosted dashboard deployment  
+- Predictive sales forecasting
+- Regional clustering and segmentation
+- Margin optimization modeling
+- Automated ETL pipeline
+- Cloud-hosted dashboard deployment
 
 ---
 
