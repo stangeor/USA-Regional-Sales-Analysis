@@ -2,7 +2,7 @@
 
 ## 1. Overview
 
-End-to-end regional sales analysis project covering data ingestion, cleaning, exploratory analysis, and executive dashboarding.
+An end-to-end regional sales analysis project covering data ingestion, data cleaning, exploratory analysis, and executive-level dashboarding.
 
 The goal is to convert raw transactional data into decision-ready insights for regional sales optimization.
 
