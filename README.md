@@ -22,7 +22,7 @@ Sales leadership needs structured visibility into:
 
 Core business questions addressed:
 
-- Which region drives the highest revenue?
+- Which region drives highest revenue?
 - Which regions underperform on profitability?
 - Are revenues concentrated in a product categories?
 - Are there seasonal patterns?
