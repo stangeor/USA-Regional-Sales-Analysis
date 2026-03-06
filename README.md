@@ -24,7 +24,7 @@ Core business questions addressed:
 
 - Which region drives the highest revenue?
 - Which regions underperform on profitability?
-- Are revenues concentrated in a few product categories?
+- Are revenues concentrated in a product categories?
 - Are there seasonal patterns?
 - Where should management focus growth or cost optimization?
 
