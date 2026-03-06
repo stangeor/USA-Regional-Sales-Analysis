@@ -6,7 +6,7 @@ An end-to-end regional sales analysis covering data ingestion, data cleaning, ex
 
 The goal is to convert raw transactional data into decision-ready insights for regional sales optimization.
 
-Python is used for data ingestion and analytical validation, while Power BI is used for executive reporting and interactive exploration.
+Python is used for data ingestion and analytical validation, while BI is used for executive reporting and interactive exploration.
 
 ---
 
