@@ -4,7 +4,7 @@
 
 End-to-end regional sales analysis covering data ingestion, data cleaning, exploratory analysis, and executive-level dashboarding.
 
-The goal is to convert raw transactional data into decision-ready insights for regional sales optimization.
+Goal is to convert raw transactional data into decision-ready insights for regional sales optimization.
 
 Python used for data ingestion & analytical validation, while BI is used for executive reporting and interactive exploration.
 
