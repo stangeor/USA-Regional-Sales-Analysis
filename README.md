@@ -17,7 +17,7 @@ Sales leadership needs structured visibility into:
 - Revenue distribution across regions
 - Profitability by geography
 - Category-level performance
-- Time-based sales trends
+- Time-based sales
 - Margin leakage and inefficiencies
 
 Core business questions addressed:
