@@ -12,7 +12,7 @@ Python used for data ingestion & analytical validation, while BI is used for exe
 
 ## 2. Business Context
 
-Sales leadership needs structured visibility into:
+Sales leadership needs visibility into:
 
 - Revenue distribution across regions
 - Profitability by geography
