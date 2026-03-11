@@ -50,7 +50,7 @@ This structure ensures reproducibility and separation of concerns.
 - Pandas
 - NumPy
 - Jupyter Notebook
-- Power BI
+   BI
 - Logging-enabled ingestion pipeline
 
 ---
