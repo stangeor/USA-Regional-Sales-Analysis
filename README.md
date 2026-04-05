@@ -2,7 +2,7 @@
 
 ## 1. Overview
 
-Led end to regional sales analytics, including data ingestion, data cleaning, exploratory analysis, and executive-level dashboard development.
+Led end to end regional sales analytics, including data ingestion, data cleaning, exploratory analysis, and executive-level dashboard development.
 
 Converted raw transactional data into actionable insights to improve regional sales performance.
 
