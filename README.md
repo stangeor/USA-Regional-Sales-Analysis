@@ -4,7 +4,7 @@
 
 Owned end-to-end regional sales analytics, covering data ingestion, data cleaning, exploratory analysis, and executive dashboard development.
 
-Converted raw transactional data into actionable insights to improve regional sales performance.
+Transformed raw transactional data into actionable insights that improved regional sales performance.
 
 Used Python for data ingestion and validation, and BI tools for executive reporting and interactive analysis.
 
