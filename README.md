@@ -2,7 +2,7 @@
 
 ## 1. Overview
 
-Owned end-to-end regional sales analytics, covering data ingestion, cleaning, exploratory analysis, and executive dashboard development.
+Led end-to-end regional sales analytics, covering data ingestion, data cleansing, exploratory analysis, and creation of executive-level dashboards.
 
 Converted raw transactional data into actionable insights that drove improvements in regional sales performance.
 
