@@ -4,7 +4,7 @@
 
  end-to-end regional sales analytics, covering data ingestion, cleansing, exploratory analysis, and delivery of executive dashboards.
 
- raw transactional data into actionable insights that improved regional sales performance.
+  transactional data into actionable insights that improved regional sales performance.
 
  Python for data ingestion and validation, and BI tools to deliver executive reporting and interactive analysis.
 
