@@ -6,7 +6,7 @@
 
   transactional data into actionable insights that improved regional sales performance.
 
- Python for data ingestion and validation, and BI tools to deliver executive reporting and interactive analysis.
+  for data ingestion and validation, and BI tools to deliver executive reporting and interactive analysis.
 
 ---
 
