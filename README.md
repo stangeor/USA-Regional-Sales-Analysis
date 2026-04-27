@@ -6,7 +6,7 @@ Handled end-to-end regional sales analytics, including data ingestion, cleaning,
 
 Converted transactional data into actionable insights that drove improvements in regional sales performance.
 
-Used data ingestion and validation tools, along with BI platforms, to deliver executive reporting and interactive analysis.
+Used data ingestion and validation tools, along with BI platforms, to deliver executive reporting and interactive analytics.
 
 ---
 
