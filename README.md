@@ -40,7 +40,7 @@ Raw Sales Data
 → Power BI Dashboard  
 → Executive Insights  
 
-This approach ensures reproducibility and clear separation of concerns.
+Ensures reproducibility and maintains a clear separation of concerns.
 
 ---
 
