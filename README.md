@@ -12,7 +12,7 @@ Used data ingestion and validation tools, along with BI platforms, to deliver ex
 
 ## 2. Business Context
 
-Sales leadership needs clear visibility into:
+Sales leadership requires clear visibility into:
 
 - Revenue distribution across regions
 - Profitability by geography
